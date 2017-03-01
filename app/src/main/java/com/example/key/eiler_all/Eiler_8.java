@@ -54,7 +54,7 @@ public class Eiler_8 {
                     }
                 }
 
-          System.out.println( "Найбільше сума " + sum);
+          System.out.println( "Найбільша сума " + sum);
 
         }
     }
