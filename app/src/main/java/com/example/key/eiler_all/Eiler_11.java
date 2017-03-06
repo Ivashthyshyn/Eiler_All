@@ -49,6 +49,7 @@ public class Eiler_11 {
         int suma3; //
         int suma4; //
 // за допомогою цикла перебираєм усі можливі напрямки і переходим по всіх значеннях масиву
+        for (k = 0; k < 16; k++)
             for (c = 0; c < 16; c++) {
                 int sum1 = der[k][c] * der[k][c + 1] * der[k][c + 2] * der[k][c + 3];
                 int sum2 = der[k][c] * der[k + 1][c + 1] * der[k + 2][c + 2] * der[k + 3][c + 3];
