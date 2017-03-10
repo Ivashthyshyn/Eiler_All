@@ -10,22 +10,28 @@ public class Eiler_12 {
         long b;
         long c = 0;
 
-        for (a = 1; a < 200000000000L; a++) {
-            c = c + a;
-            b=0;
-
+        for (a = 100; a < 1000000000L; a++) {
+            long k = a + 1;
+            c = (a*k)/2;
+           b=0;
+        boolean q = false;
             for (long i = 1; i < c; i++) {
                 if (c % i == 0) {
                     b=b+1;
+                    System.out.println(b);
 
                 }
-
+                if (b==500){
+                    System.out.println( "NNNN" + c + " s " + a );
+                    q = true;
+                    break;
+                }
             }
-            if (b>500){
+
+            if (q==true){
                 System.out.println( "NNNN" + c );
-                break;
+               break;
             }
-
         }
 
     }
