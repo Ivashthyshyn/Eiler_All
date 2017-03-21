@@ -151,7 +151,7 @@ public class Eiler_13 {
             if (c>1) {
                 array[99][c - 1] = array[99][c - 1] + ints[1];
                 array[99][c - 2] = array[99][c - 2] + ints[0];
-                then [c+2] = ints[2];
+             //   then [c+2] = ints[2];
             }else if(c==1) {// останні додаємо і прописуєм вручну
                 then [3] = ints[2];
                 then [2] = ints[1];
